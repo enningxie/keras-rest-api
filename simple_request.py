@@ -7,7 +7,7 @@ import requests
 # initialize the Keras REST API endpoint URL along with the input
 # image path
 KERAS_REST_API_URL = "http://172.18.103.43:5000/predict"
-JSON_PATH = "../data/test_01.json"
+JSON_PATH = "data/test_01.json"
 
 
 payload = {"origin_json": open(JSON_PATH, 'r')}
